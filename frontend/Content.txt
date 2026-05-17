@@ -1,0 +1,171 @@
+
+- Navbar
+Scooby
+
+- Hero 
+Trusted Pet Care, Tailored With Love
+Your Pet Deserves The Best Family.
+
+- Services 
+
+import { GiDogHouse, GiSittingDog, GiDogBowl } from "react-icons/gi";
+import { FaUserMd, FaPaw, FaTruck } from "react-icons/fa";
+
+const petServices = [
+  {
+    icon: <GiDogHouse size={40} />,
+    title: "Pet Boarding",
+    desc: "Safe and comfortable home for your pets when you're away.",
+  },
+  {
+    icon: <FaUserMd size={40} />,
+    title: "Vet Consultation",
+    desc: "Expert vet support for your pet's health & wellness.",
+  },
+  {
+    icon: <GiDogBowl size={40} />,
+    title: "Pet Food Delivery",
+    desc: "Nutritious food & treats delivered to your doorstep.",
+  },
+  {
+    icon: <GiSittingDog size={40} />,
+    title: "Pet Training",
+    desc: "Professional training to keep your pet well-behaved.",
+  },
+  {
+    icon: <FaPaw size={40} />,
+    title: "Grooming Services",
+    desc: "Bathing, trimming & pampering sessions for your furry friend.",
+  },
+  {
+    icon: <FaTruck size={40} />,
+    title: "Quick Delivery",
+    desc: "Fast, hassle-free service at your convenience.",
+  },
+];
+
+
+We care for your pets like family. Explore our range of trusted pet care services designed for their happiness & your peace of mind.
+
+
+- why choose us 
+
+import { FaUserMd, FaRegSmile, FaTruck, FaShieldAlt } from "react-icons/fa";
+
+const reasons = [
+  {
+    icon: <FaUserMd size={30} />,
+    title: "Certified Vets",
+    desc: "Your pet’s health is in trusted, expert hands. We connect you with verified veterinarians for every need.",
+  },
+  {
+    icon: <FaRegSmile size={30} />,
+    title: "5000+ Happy Pets",
+    desc: "Thousands of wagging tails and purring friends. Trusted by pet parents across India.",
+  },
+  {
+    icon: <FaTruck size={30} />,
+    title: "Fast & Reliable Delivery",
+    desc: "On-time doorstep delivery of pet food, grooming kits & accessories in 20+ cities.",
+  },
+  {
+    icon: <FaShieldAlt size={30} />,
+    title: "Safe & Verified Services",
+    desc: "Background-verified staff & vet-approved products. Your pet’s safety is our priority.",
+  },
+];
+
+
+At Scooby, we go beyond just pet care — we build relationships. Here's what makes us different (and your pet's favorite).
+
+
+- About us
+
+At Scooby we believe that
+pets aren't just animals — they're family. That's why we built a
+platform that delivers trusted, loving, and professional pet care
+services to your doorstep.
+
+Whether it's a grooming session, a vet consultation, or simply a
+delicious treat — we ensure your pet gets the best. Founded by true
+animal lovers, our mission is to make every pet feel healthy, happy,
+and loved.
+
+
+- Testimonials
+
+import { FaQuoteLeft } from "react-icons/fa";
+
+const testimonials = [
+  {
+    name: "Anjali Sharma",
+    feedback:
+      "Scooby is a blessing! My dog loves their grooming service, and I've never seen him so excited for a bath. Highly recommended!",
+  },
+  {
+    name: "Rahul Desai",
+    feedback:
+      "I was skeptical at first, but their vet consultation was super smooth. The doctor was kind and knowledgeable. Felt like home service!",
+  },
+  {
+    name: "Sneha Iyer",
+    feedback:
+      "Their pet food delivery is always on time and the quality is top-notch. My cat loves their treats more than anything!",
+  },
+  {
+    name: "Arjun Patel",
+    feedback:
+      "The professionalism of their trainers is commendable. My puppy learned basic commands in just a week. Great service!",
+  },
+];
+
+
+Real stories from happy customers who've experienced the Scooby
+difference.
+
+
+- FAQsAccordion
+
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+
+const faqs = [
+  {
+    question: "Is Scooby available in all cities?",
+    answer:
+      "Currently, we are available in major metro cities across India. We're expanding rapidly — stay tuned!",
+  },
+  {
+    question: "Are your pets certified?",
+    answer:
+      "Yes! All our pets are government-registered and verified by our internal quality team.",
+  },
+  {
+    question: "What if my pet doesn’t like the food?",
+    answer:
+      "No worries! We have a 3-day replacement guarantee for unused items. Your pet’s happiness is our priority.",
+  },
+  {
+    question: "Can I cancel a subscription anytime?",
+    answer:
+      "Absolutely. You can manage, pause, or cancel your subscription anytime through your dashboard.",
+  },
+  {
+    question: "How do I book a grooming session?",
+    answer:
+      "Just head to the Grooming section and choose a slot. Our experts will visit your home at your chosen time.",
+  },
+];
+
+
+
+- footer 
+
+ Your pet's second-best friend (after you!). We provide top-notch care, grooming, food & more.
+
+ Email: support@Scooby.com
+ Phone: +91 98765 43210
+ Hours: Mon - Sat, 9AM - 7PM
+ Location: Navi Mumbai, India
+
+
+@copyright developed by champion programmers | All rights reserved

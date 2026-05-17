@@ -8,7 +8,7 @@
 CREATE TYPE "PetType" AS ENUM ('dog', 'cat');
 
 -- AlterTable
-ALTER TABLE "Booking" ADD COLUMN     "petId" TEXT NOT NULL;
+ALTER TABLE "Booking" ADD COLUMN"petId" TEXT NOT NULL;
 
 -- CreateTable
 CREATE TABLE "Pet" (
