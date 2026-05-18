@@ -12,10 +12,10 @@ const Hero = () => {
             </h1>
             <div className="mt-8 flex gap-4">
                 <button className="bg-[#ff7d4e] text-white px-3.5 md:px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#e46637] transition ">
-                    Make a Reservation
+                    Fă o rezervare
                 </button>
                 <button className="bg-[#1e1e1e] text-white px-3.5 md:px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#333] transition ">
-                    About More
+                    Află mai multe
                 </button>
             </div>
         </div>
