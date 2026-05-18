@@ -1,5 +1,5 @@
 # Project description
- Pet Services Platform este o aplicație care conectează proprietarii de animale de companie cu furnizori de servicii precum groomeri sau pet sitteri. Utilizatorii pot căuta servicii după categorie și locație, pot compara furnizorii pe baza recenziilor
+ Pet Services Platform este o aplicație care conectează proprietarii de animale de companie cu furnizori de servicii precum groomeri sau pet sitteri. Utilizatorii pot căuta servicii după categorie și pot compara furnizorii pe baza recenziilor
  
 # React + Vite
 
