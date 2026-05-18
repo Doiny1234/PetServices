@@ -6,6 +6,9 @@ import DashboardPage from "./pages/DashboardPage";
 import ServicesPage from "./pages/ServicesPage";
 import PetsPage from "./pages/PetsPage";
 import FavoritesPage from "./pages/FavoritesPage";
+import AboutPage from "./pages/AboutPage";
+import BlogPage from "./pages/BlogPage";
+import ContactPage from "./pages/ContactPage";
 
 // 1. Componenta pentru protecție generală (să fie logat)
 const ProtectedRoute = ({ children }) => {
@@ -55,6 +58,9 @@ function App() {
             </ProtectedRoute>
           } 
         />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/contact" element={<ContactPage />} />
 
         {/* Rute DOAR pentru PET OWNER */}
         <Route 

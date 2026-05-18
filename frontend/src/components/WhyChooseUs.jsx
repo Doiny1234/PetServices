@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUserMd, FaRegSmile, FaTruck, FaShieldAlt } from "react-icons/fa";
+import { FaRegSmile, FaClock, FaShieldAlt } from "react-icons/fa";
 
 const reasons = [
 
@@ -14,6 +14,12 @@ const reasons = [
     title: "Servicii sigure și verificate",
     desc: "Personal verificat . Siguranța animalului tău este prioritatea noastră.",
   },
+  {
+  icon: <FaClock size={30} />,
+  title: "Programări rapide",
+  desc: "Rezervi în câteva secunde, fără stres și fără telefoane inutile.",
+  },
+
 ];
 
 const WhyChooseUs = () => {
@@ -28,7 +34,7 @@ const WhyChooseUs = () => {
         Iată ce ne face diferiți (și preferații animalului tău).
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {reasons.map((reason, index) => (
           <div
             key={index}

@@ -25,9 +25,9 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Links</h3>
           <ul className="space-y-2 text-[#e6d9cd] text-sm">
             <li><a href="/">Acasă</a></li>
-            <li><a href="/">Servicii</a></li>
-            <li><a href="/">Despre Noi</a></li>
-            <li><a href="/">Contact</a></li>
+            <li><a href="/services">Servicii</a></li>
+            <li><a href="/about">Despre Noi</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
 
@@ -36,9 +36,9 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Serviciile noastre</h3>
           <ul className="space-y-2 text-[#e6d9cd] text-sm">
             <li>Pet Grooming</li>
-            <li>Vet Consultation</li>
-            <li>Pet Food Delivery</li>
-            <li>Training & Boarding</li>
+            <li>Pet Training</li>
+            <li>Pet Walking</li>
+            <li>Pet Sitting</li>
           </ul>
         </div>
 
@@ -46,9 +46,9 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact</h3>
           <ul className="text-[#e6d9cd] text-sm space-y-2">
-            <li>Email: support@Scooby.com</li>
-            <li>Telefon: 0754569504</li>
-            <li>Location: Oradea,Romania</li>
+            <li>Email: contact@Scooby.com</li>
+            <li>Telefon: 0712 345 678</li>
+            <li>Locație: Oradea, Romania</li>
           </ul>
         </div>
       </div>

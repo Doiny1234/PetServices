@@ -1,6 +1,6 @@
 import React from 'react';
 import { GiDogHouse, GiSittingDog } from "react-icons/gi";
-import { FaPaw } from "react-icons/fa";
+import { FaPaw ,FaWalking  } from "react-icons/fa";
 
 const petServices = [
   {
@@ -18,7 +18,13 @@ const petServices = [
     title: "Servicii de îngrijire (grooming)",
     desc: "Băi, tuns și sesiuni de răsfăț pentru prietenul tău blănos.",
   },
+  {
+    icon: <FaWalking size={40} />,
+    title: "Plimbări pentru animale",
+    desc: "Plimbări zilnice pentru câini și pisici, adaptate nevoilor fiecărui animal.",
+  },
 ];
+
 
 const Services = () => {
   return (
@@ -33,7 +39,7 @@ const Services = () => {
         create pentru fericirea lor și liniștea ta.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {petServices.map((service, index) => (
           <div
             key={index}

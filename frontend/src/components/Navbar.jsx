@@ -50,15 +50,18 @@ const Navbar = () => {
           <Link to="/" className="hover:text-[#d1733d] transition-colors">Acasă</Link>
 
           {/* Services dropdown */}
-          <div
-            className="relative cursor-pointer"
+                <div
+            className="relative"
             onMouseEnter={() => setShowDropDown(true)}
             onMouseLeave={() => setShowDropDown(false)}
           >
-            <div className="flex items-center gap-1 hover:text-[#d1733d] py-2">
+            <Link
+              to="/services"
+              className="flex items-center gap-1 hover:text-[#d1733d] py-2"
+            >
               <span>Servicii</span>
               <IoMdArrowDropdown size={20} />
-            </div>
+            </Link>
 
             {showDropDown && (
               <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-40 flex flex-col z-10 border border-gray-100">
@@ -69,10 +72,9 @@ const Navbar = () => {
               </div>
             )}
           </div>
-
-          <Link to="/" className="hover:text-[#d1733d]">Despre Noi</Link>
-          <Link to="/" className="hover:text-[#d1733d]">Blog</Link>
-          <Link to="/" className="hover:text-[#d1733d]">Contact</Link>
+            <Link to="/about" className="hover:text-[#d1733d]">Despre Noi</Link>
+            <Link to="/blog" className="hover:text-[#d1733d]">Blog</Link>
+            <Link to="/contact" className="hover:text-[#d1733d]">Contact</Link>
         </nav>
 
         {/* Desktop icons & Search Bar */}

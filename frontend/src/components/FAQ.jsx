@@ -3,29 +3,29 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "Is Scooby available in all cities?",
+    question: "Este Scooby disponibil în toate orașele?",
     answer:
-      "Currently, we are available in major metro cities across India. We're expanding rapidly — stay tuned!",
+      "Momentan suntem disponibili în Oradea și zonele apropiate. Ne extindem constant pentru a ajunge la cât mai mulți iubitori de animale.",
   },
   {
-    question: "Are your pets certified?",
+    question: "Personalul vostru este calificat?",
     answer:
-      "Yes! All our pets are government-registered and verified by our internal quality team.",
+      "Da! Toți membrii echipei sunt verificați, instruiți și au experiență în lucrul cu animalele.",
   },
   {
-    question: "What if my pet doesn’t like the food?",
+    question: "Ce fac dacă animalul meu nu se simte confortabil?",
     answer:
-      "No worries! We have a 3-day replacement guarantee for unused items. Your pet’s happiness is our priority.",
+      "Nicio grijă! Adaptăm serviciile în funcție de personalitatea și nevoile fiecărui animal. Siguranța și confortul lor sunt pe primul loc.",
   },
   {
-    question: "Can I cancel a subscription anytime?",
+    question: "Pot anula o programare?",
     answer:
-      "Absolutely. You can manage, pause, or cancel your subscription anytime through your dashboard.",
+      "Desigur. Poți modifica sau anula o programare oricând, direct din contul tău sau contactând echipa noastră.",
   },
   {
-    question: "How do I book a grooming session?",
+    question: "Cum pot rezerva o sesiune de grooming?",
     answer:
-      "Just head to the Grooming section and choose a slot. Our experts will visit your home at your chosen time.",
+      "Accesezi secțiunea Grooming, alegi data și ora, iar echipa noastră te va contacta pentru confirmare.",
   },
 ];
 
@@ -39,10 +39,10 @@ const FAQsAccordion = () => {
   return (
     <section className="bg-[#f8f1ea] py-20 px-6 md:px-14">
       <h2 className="text-4xl font-bold text-center text-[#5A3B1F] mb-4">
-        Frequently Asked Questions
+        Întrebări Frecvente
       </h2>
       <p className="text-center text-[#7c5a3b] max-w-2xl mx-auto mb-12 text-[17px]">
-        Got pawsitive doubts? Let's clear them out!
+        Ai întrebări? Avem răspunsuri! Descoperă cele mai frecvente întrebări și soluții pentru a-ți face viața cu animalele de companie cât mai ușoară.
       </p>
 
       <div className="max-w-4xl mx-auto space-y-4">
