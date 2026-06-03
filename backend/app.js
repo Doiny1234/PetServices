@@ -16,6 +16,7 @@ const app = express();
 app.use(cors()); 
 //express json middleware parseaza corpul cererii
 app.use(express.json()); //transforma json in obiect js si il pune in req.body
+app.use('/api/reviews', require('./src/routes/reviewRoutes'));
 
 // Rută de verificare (Health Check)
 app.get('/', (req, res) => {

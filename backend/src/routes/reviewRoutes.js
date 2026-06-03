@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const { authenticate } = require('../middleware/authMiddleware');
 const reviewController = require('../controllers/reviewController');
 
-router.get('/service/:serviceId', reviewController.getReviewsByService);
-router.post('/', authenticate, reviewController.createReview);
+router.post('/', reviewController.createReview);
+router.get('/', reviewController.getAllReviews);
+router.delete('/:id', reviewController.deleteReview);
 
 module.exports = router;
